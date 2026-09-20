@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Stop Personalized Career and Education Advisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎓 One-Stop Personalized Career and Education Advisor</h1>
+    <p class="subtitle">
+        Find the best career path based on your interests and skills.
+    </p>
+
+    <label>Student Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label>Department</label>
+    <select id="department">
+        <option value="">Select Department</option>
+        <option>CSE</option>
+        <option>AI & DS</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>MECH</option>
+        <option>AI & ML</option>
+    </select>
+
+    <label>Area of Interest</label>
+    <select id="interest">
+        <option value="">Select Interest</option>
+        <option>Artificial Intelligence</option>
+        <option>Data Science</option>
+        <option>Web Development</option>
+        <option>Cyber Security</option>
+        <option>Cloud Computing</option>
+        <option>Data Analyst</option>
+    </select>
+
+    <label>Current Skills</label>
+    <input type="text" id="skills" placeholder="Example: Python, Java">
+
+    <label>CGPA</label>
+    <input type="number" id="cgpa" step="0.1" placeholder="Enter CGPA">
+
+    <button onclick="getRecommendation()">
+        Get Recommendation
+    </button>
+
+    <button type="button" onclick="resetForm()">
+        Reset
+    </button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
