@@ -24,6 +24,7 @@ The Personalized Career & Education Advisor is designed to help students explore
 - CSS3
 - JavaScript
 
+
 ## How It Works
 
 1. Enter your basic details.
@@ -34,12 +35,6 @@ The Personalized Career & Education Advisor is designed to help students explore
 
 ## Project Structure
 
-> Future Enhancements
-> AI-based recommendation system
-> Machine learning integration
-> More career and course options
-> User authentication
-> Database integration
 
 ```text
 career-education-advisor/
@@ -47,3 +42,4 @@ career-education-advisor/
 ├── index.html
 ├── style.css
 └── script.js
+
