@@ -12,7 +12,7 @@ The Personalized Career & Education Advisor is designed to help students explore
 ## Features
 
 - Personalized career recommendations
-- Education pathway suggestions
+- Education pathway suggestions 
 - Interest and skill-based recommendations
 - CGPA-based guidance
 - Simple and user-friendly interface
