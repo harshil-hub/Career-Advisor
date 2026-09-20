@@ -18,6 +18,10 @@ The Personalized Career & Education Advisor is designed to help students explore
 - Simple and user-friendly interface
 - Responsive web design
 
+## Project Preview
+
+![Career & Education Advisor](CareerAdvisorImage.png)
+
 ## Technologies Used
 
 - HTML5
@@ -42,4 +46,6 @@ career-education-advisor/
 ├── index.html
 ├── style.css
 └── script.js
+
+
 
